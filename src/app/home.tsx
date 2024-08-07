@@ -1,9 +1,13 @@
 "use client";
 import React from 'react';
 import Typed from 'typed.js';
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Home = () => {
   const el = React.useRef(null);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -21,9 +25,9 @@ const Home = () => {
     };
   }, []);
   return (
-    <main className='ov -inset-10 '>
+    <main className='ov '>
       <div style={{ height: '100dvh',display:"flex", justifyContent:"center", alignContent:"center",alignItems:"center"}} className='hidden'>
-          <p id="name">
+          <p id="name" >
             <span id="a">A</span>binav <br />Nagarajan
           </p>
           <p id="details" className='typed' ref={el}></p>

@@ -9,7 +9,6 @@ import Home from './home';
 import Skills from './skills';
 import Project from './project';
 import Me from './aboutme';
-import ScrollContainer from "../../components/ScrollContainer";
 import { useEffect,useState } from 'react';
 
 const Page = () => {
@@ -33,16 +32,16 @@ const Page = () => {
                 }}/>}
         </div>
         
-        <div data-scroll-section style={{ height: '100dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="home">
+        <div style={{ height: '100dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="home">
       <Home />
       </div>
-      <div data-scroll-section style={{ height: '150dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="about">
+      <div style={{ height: '150dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="about">
       <Me />
       </div>
-      <div data-scroll-section style={{ height: '100dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="skills">
+      <div style={{ height: '100dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="skills">
       <Skills />
       </div>
-      <div data-scroll-section style={{ height: '100dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="about">
+      <div style={{ height: '100dvh',width:"100%", justifyContent:"center", alignContent:"center",alignItems:"center"}} id="about">
       <Project />
       </div>
     </section>

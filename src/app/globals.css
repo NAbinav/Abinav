@@ -68,25 +68,10 @@ p{
   font-size: 30px;
   font-weight: 100;
 }
-.hidden{
-  opacity:0;
-  filter: blur(10px);
-  transform: translateX(-100%);
-  z-index: 2;
-  transition: opacity 800ms, filter 1000ms ease-in-out,transform 400ms;
-}
-.show{
-  opacity: 1;
-  filter: blur(0px);
-  transform: translateX(0%);
-  z-index: 2;
-}
-.ov{
-  overflow: hidden;
-}
+
 #name{
 font-weight: 400;
-position: fixed;
+position: absolute;
 font-size: 60px;
 color:rgba(255, 255, 255, 0.924);
 
@@ -94,7 +79,7 @@ top:30%;
 left:5%;
 }
 #details{
-  position: fixed;
+  position: absolute;
   display: inline-block;
   top:70%;
 left:5%;
@@ -120,7 +105,7 @@ left:5%;
 #link {
   padding: 0%;
   text-decoration: none;
-position: fixed;
+position: absolute;
 bottom:8%;
 left:5%;
 }
@@ -142,7 +127,7 @@ left:5%;
   display: none;
 }
 .intro{
-  position: fixed;
+  position: absolute;
 }
 #hey-guys{
   margin: 10px;
