@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollContainer from '../../components/ScrollContainer';
 const Me = () => {
   return (
-    <main style={{height: '151.01dvh',display:"flex",flexDirection:'column', justifyContent:"center", alignContent:"center",alignItems:"center"}} className="hidden">
+    <div style={{height: '151.01dvh',display:"flex",flexDirection:'column', justifyContent:"center", alignContent:"center",alignItems:"center"}} className="hidden">
     <div style={{ height: '150dvh',display:"contents"}} className=''>
         <h1 id="" className='about'>ABOUT ME</h1>
         <p id='hey-guys' className=''>Hey guys,
@@ -49,7 +49,7 @@ you have come to the right place
         </div>
 
     </div>
-    </main>
+    </div>
   )
 }
 
