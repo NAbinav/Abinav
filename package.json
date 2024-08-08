@@ -18,15 +18,13 @@
     "@fortawesome/react-fontawesome": "^0.2.2",
     "framer-motion": "^11.3.23",
     "locomotive-scroll": "^4.1.4",
-    "next": "14.2.3",
+    "next": "^14.2.3",
     "portfolio": "file:",
-    "react": "^18",
+    "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.14",
-    "react-dom": "^18",
+    "react-dom": "^18.2.0",
     "react-fontawesome": "^1.7.1",
-    "react-reveal": "^1.2.2",
     "react-router-dom": "^6.26.0",
-    "react-spring": "^9.7.4",
     "typed.js": "^2.1.0"
   },
   "devDependencies": {
