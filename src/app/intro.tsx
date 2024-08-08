@@ -1,23 +1,22 @@
 "use client";
 import { useEffect } from "react";
-import React, { MouseEvent } from 'react';
+import React, { MouseEvent } from "react";
 function Intro() {
-        useEffect(()=>{
-            const observer= new IntersectionObserver((entries)=>{
-                entries.forEach((entry)=>{
-                    if (entry.isIntersecting){
-                        entry.target.classList.add('show');
-                    }
-                    else{
-                        entry.target.classList.remove('show');
-                    }
-                })
-            })
-            const hiddenElement=document.querySelectorAll('.hidden');
-            hiddenElement.forEach((el)=>observer.observe(el));
-          });
   useEffect(() => {
-    const handleMouseMove = (e:any) => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("show");
+        } else {
+          entry.target.classList.remove("show");
+        }
+      });
+    });
+    const hiddenElement = document.querySelectorAll(".hidden");
+    hiddenElement.forEach((el) => observer.observe(el));
+  });
+  useEffect(() => {
+    const handleMouseMove = (e: any) => {
       const { currentTarget: target } = e;
       const rect = target.getBoundingClientRect();
       const x = e.clientX - rect.left;
@@ -25,12 +24,12 @@ function Intro() {
       target.style.setProperty("--mouse-x", `${x}px`);
       target.style.setProperty("--mouse-y", `${y}px`);
     };
-  
+
     const cards = document.querySelectorAll<HTMLElement>(".card");
     for (const card of cards) {
-      card.onmousemove = (e:any) => handleMouseMove(e);
+      card.onmousemove = (e: any) => handleMouseMove(e);
     }
-  
+
     // Cleanup function to remove event listeners
     return () => {
       for (const card of cards) {
@@ -40,53 +39,70 @@ function Intro() {
   }, []);
 
   return (
-    <main style={{height: '100  dvh',display:"flex", justifyContent:"center", alignContent:"center",alignItems:"center"}} className="hidden firstpage">
-      <div id="cards" >
-        <div className="card" onClick={()=>{
+    <main
+      style={{
+        height: "100  dvh",
+        display: "flex",
+        justifyContent: "center",
+        alignContent: "center",
+        alignItems: "center",
+      }}
+      className="hidden firstpage"
+    >
+      <div id="cards">
+        <div
+          className="card"
+          onClick={() => {
             window.scrollBy({
-                top: window.innerHeight,
-                left: 0,
-                behavior: "smooth",
-              });
-
-        }}>
+              top: window.innerHeight,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
           <div className="card-content">
             <p>HOME</p>
           </div>
         </div>
-        <div className="card" onClick={()=>{
+        <div
+          className="card"
+          onClick={() => {
             window.scrollBy({
-                top: 2*window.innerHeight,
-                left: 0,
-                behavior: "smooth",
-              });
-
-        }}>
+              top: 2 * window.innerHeight,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
           <div className="card-content">
             <p>ABOUT</p>
           </div>
         </div>
-        <div className="card" onClick={()=>{
+        <div
+          className="card"
+          onClick={() => {
             window.scrollBy({
-                top: 3.5*window.innerHeight,
-                left: 0,
-                behavior: "smooth",
-              });
-
-        }}>
-        <div className="card-content">
+              top: 3.25 * window.innerHeight,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
+          <div className="card-content">
             <p>SKILLS</p>
           </div>
         </div>
-        <div className="card" onClick={()=>{
+        <div
+          className="card"
+          onClick={() => {
             window.scrollBy({
-                top:4.5*window.innerHeight,
-                left: 0,
-                behavior: "smooth",
-              });
-
-        }}>
-        <div className="card-content">
+              top: 4.5 * window.innerHeight,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}
+        >
+          <div className="card-content">
             <p>PROJECT</p>
           </div>
         </div>
@@ -95,4 +111,4 @@ function Intro() {
   );
 }
 
-export default Intro
+export default Intro;
