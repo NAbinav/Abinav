@@ -385,3 +385,24 @@ li {
 .det{
   transform: translateY(65%);
 }
+.circle-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ncircle {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #3498db;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
