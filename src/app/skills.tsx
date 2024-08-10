@@ -7,7 +7,13 @@ import { FaReact, FaHtml5, FaJs, FaCss3 } from "react-icons/fa";
 import Circle from "../../components/Circles";
 
 const containerStyle = {};
-const list1 = [<FaHtml5 />, <FaJs />, <FaReact />, <FaCss3 />];
+const list1 = [
+  <FaHtml5 key="html5" />,
+  <FaJs key="js" />,
+  <FaReact key="react" />,
+  <FaCss3 key="css3" />,
+];
+
 const Skills = () => {
   return (
     <main className="">
