@@ -11,7 +11,7 @@ const Skills = () => {
     <main className="">
       <div style={{ height: "100dvh" }} className="container ">
         <Reveal keyframes={Name} delay={300}>
-          <div className="circle">
+          <div className="circle hover:shadow-[0_0px_60px] hover:shadow-rose-500">
             <div>Devolopment </div>
           </div>
         </Reveal>
@@ -21,12 +21,12 @@ const Skills = () => {
           </div>
         </Reveal>
         <Reveal keyframes={Name} delay={300}>
-          <div className="circle">
+          <div className="circle hover:shadow-[0_0px_60px] hover:shadow-sky-600">
             <div>Database </div>
           </div>
         </Reveal>
         <Reveal keyframes={Name}>
-          <div className="circle">
+          <div className="circle hover:shadow-[0_0px_60px] hover:shadow-fuchsia-600">
             <div>Designing </div>
           </div>
         </Reveal>
