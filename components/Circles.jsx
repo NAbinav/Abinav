@@ -26,14 +26,14 @@ const Circle = ({ list}) => {
             from {
               opacity: 0;
               transform:rotate(${(360 / list.length) * (list.length-index)}deg);
-              rotate(-${(360 / list.length) * index+1}deg)
+              rotate(-${(360 / list.length) * index}deg)
               
             }
           `} delay={index*100}>
           <div
             className="ncircle"
             style={{
-              transform: `rotate(${(360 / list.length) * index}deg) translate(150px) rotate(-${(360 / list.length) * index}deg)`,
+              transform: `rotate(${(360 / list.length) * index}deg) translate(100px) rotate(-${(360 / list.length) * index}deg)`,
             }}
           >
             {circle}
