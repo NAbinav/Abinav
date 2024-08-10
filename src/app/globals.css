@@ -250,8 +250,8 @@ ul {
 
 .circle {
   position: sticky;
-  height: 275px;
-  width: 275px;
+  height: 300px;
+  width: 300px;
   border: 1px solid white;
   border-radius: 50%;
   justify-content: center;
@@ -263,8 +263,8 @@ ul {
 
 }
 .circle:hover{
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
 }
 .container{
   justify-content: center;
@@ -387,8 +387,8 @@ li {
 }
 .circle-container {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 175px;
+  height: 175x;
   margin: 50px auto;
   display: flex;
   justify-content: center;
@@ -397,11 +397,9 @@ li {
 
 .ncircle {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  background-color: #3498db;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
