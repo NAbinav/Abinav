@@ -14,7 +14,6 @@ const contact = () => {
         }}
         className=""
       >
-        <Circle list={list1} />
         This is contact section
       </div>
     </main>
