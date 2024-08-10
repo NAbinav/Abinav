@@ -12,27 +12,27 @@ const containerStyle = {};
 const list1 = [
   <FaHtml5
     key="html5"
-    className="h-12 w-12  p-2 rounded-full border-2 text-[#FF5225] shadow-[0_0px_20px]"
+    className="h-12 w-12  p-2 rounded-full border-2 text-[#FF5225] shadow-[0_0px_25px] hover:size-14"
   />,
   <FaJs
     key="js"
-    className=" h-12 w-12  p-2 rounded-full border-2 text-[#F7E025] shadow-[0_0px_20px]"
+    className=" h-12 w-12  p-2 rounded-full border-2 text-[#F7E025] shadow-[0_0px_25px] hover:size-14"
   />,
   <SiTailwindcss
     key="Tailwind"
-    className=" h-12 w-12  p-2 rounded-full border-2 text-[#0BB5D5] shadow-[0_0px_20px]"
+    className=" h-12 w-12  p-2 rounded-full border-2 text-[#0BB5D5] shadow-[0_0px_25px] hover:size-14"
   />,
   <FaReact
     key="react"
-    className=" h-12 w-12  p-2 rounded-full border-2 text-[#08D9FF] shadow-[0_0px_20px]"
+    className=" h-12 w-12  p-2 rounded-full border-2 text-[#08D9FF] shadow-[0_0px_25px] hover:size-14"
   />,
   <FaCss3
     key="css3"
-    className=" h-12 w-12  p-2 rounded-full border-2 text-[#2629e4] shadow-[0_0px_20px]"
+    className=" h-12 w-12  p-2 rounded-full border-2 text-[#2629e4] shadow-[0_0px_25px] hover:size-14"
   />,
   <FaNodeJs
     key="NodeJs"
-    className=" h-12 w-12  p-2 rounded-full border-2 text-[#84BF08] shadow-[0_0px_20px]"
+    className=" h-12 w-12  p-2 rounded-full border-2 text-[#84BF08] shadow-[0_0px_25px] hover:size-14"
   />,
 ];
 
