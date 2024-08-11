@@ -30,8 +30,6 @@ export const others = keyframes`
 
 const Home = () => {
   const el = React.useRef(null);
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
@@ -56,13 +54,13 @@ const Home = () => {
   }, []);
   return (
     <main className="ov ">
-      <div style={{ height: "100dvh", display: "flex" }} className="hidden">
-        <Reveal keyframes={Name}>
+      <div style={{ height: "", display: "flex" }} className=" flex flex-col">
+        <div className="">
           <p id="name">
             <span id="a">A</span>binav <br />
             Nagarajan
           </p>
-        </Reveal>
+        </div>
         <div className="flex flex-col gap-12 det">
           <p id="details" className="typed" ref={el}></p>
           <Reveal keyframes={others}>

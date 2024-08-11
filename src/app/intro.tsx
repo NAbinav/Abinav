@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import React, { MouseEvent } from "react";
+import React from "react";
 function Intro() {
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -41,15 +41,18 @@ function Intro() {
   return (
     <main
       style={{
-        height: "100  dvh",
+        height: "100dvh",
         display: "flex",
         justifyContent: "center",
         alignContent: "center",
         alignItems: "center",
       }}
-      className="hidden firstpage"
+      className=" firstpage"
     >
-      <div id="cards">
+      <div
+        id="cards"
+        className="center align-middle justify-center items-center"
+      >
         <div
           className="card"
           onClick={() => {
