@@ -51,7 +51,7 @@ body {
   border-radius: inherit;
   content: "";
   height: 100%;
-  left: 0px;
+  left: 0%;
   position: absolute;
   top: 0px;
   width: 100%;
@@ -68,7 +68,7 @@ body {
 #cards {
   display: flex;
   flex-wrap: wrap;
-  max-width: 630px;
+  max-width: 50%;
   cursor: pointer;
   width: calc(100%-20px);
   gap: 20px;
@@ -100,7 +100,7 @@ p {
 }
 
 #but {
-  padding: 15px;
+  padding: 1%;
   background-color: transparent;
   border-radius: 10%;
   color: white;
@@ -118,7 +118,6 @@ p {
 #link {
   padding: 0%;
   text-decoration: none;
-  transform: translateX(-10%);
 }
 
 #menu {
@@ -145,15 +144,15 @@ p {
 }
 
 #hey-guys {
-  margin: 10px;
-  padding: 10px;
+  margin: 1dvh;
+  padding: 1dvh;
   font-size: 18px;
   line-height: 1.75rem;
 }
 
 .about {
-  margin: 10px;
-  padding: 10px;
+  margin: 1dvh;
+  padding: 1dvh;
   font-weight: 500;
 }
 
@@ -167,7 +166,6 @@ p {
 .name {
   font-size: 25px;
   font-weight: 400;
-  transform: translateY();
 }
 
 .box {
@@ -182,7 +180,7 @@ p {
   margin: 15px;
   box-shadow: 0px 5px 20px rgba(255, 255, 255, 0.288);
   border-radius: 16px;
-  width: 350px;
+  width: 50dvh;
   height: max-content;
   font-size: 17px;
   justify-content: space-around;
@@ -228,7 +226,6 @@ ul {
   display: flex;
   flex-direction: row;
   row-gap: 20px;
-  row-gap: 150px;
   height: max-content;
 
 }
@@ -237,7 +234,6 @@ ul {
   display: none;
   position: fixed;
   bottom: 0px;
-
   left: 0;
   right: 0;
   display: flex;
@@ -364,7 +360,7 @@ li {
   }
 }
 
-@media  (max-width: 640px) {
+@media  (max-width: 500px) {
   #menu {
     display: none;
   }
