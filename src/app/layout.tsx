@@ -17,7 +17,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="viewport" content="width=device-width, user-scalable=no" />
+      <meta
+        name="viewport"
+        content="width=device-width, scale-1.0, user-scalable=no"
+      />
       <body className={inter.className}>
         <main className="">
           <div className="">
