@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <section
       style={{
-        height: "100dvh",
+        height: "100%",
         width: "100%",
         justifyContent: "center",
         alignContent: "center",
