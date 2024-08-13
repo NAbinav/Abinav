@@ -20,7 +20,7 @@ const Page = () => {
   return (
     <section
       style={{
-        height: "100%",
+        height: "100dvh",
         width: "100%",
         justifyContent: "center",
         alignContent: "center",
@@ -30,6 +30,7 @@ const Page = () => {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div
         style={{
+          height: "100dvh",
           width: "100%",
           justifyContent: "center",
           alignContent: "center",
@@ -42,7 +43,7 @@ const Page = () => {
       </div>
       <div
         style={{
-          height: "100%",
+          height: "100dvh",
           width: "100%",
           justifyContent: "center",
           alignContent: "center",
@@ -54,7 +55,7 @@ const Page = () => {
       </div>
       <div
         style={{
-          height: "max-content",
+          height: "100dvh",
           width: "100%",
           justifyContent: "center",
           alignContent: "center",
