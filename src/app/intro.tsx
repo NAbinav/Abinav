@@ -57,7 +57,7 @@ function Intro() {
           className="card"
           onClick={() => {
             window.scrollBy({
-              top: window.innerHeight,
+              top: 1 * window.innerHeight,
               left: 0,
               behavior: "smooth",
             });

@@ -6,7 +6,7 @@ const contact = () => {
     <main className="">
       <div
         style={{
-          height: "100dvh",
+          height: "max-content",
           display: "flex",
           justifyContent: "center",
           alignContent: "center",

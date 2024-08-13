@@ -39,7 +39,10 @@ const list1 = [
 const Skills = () => {
   return (
     <main className="">
-      <div style={{ height: "150dvh" }} className="container ">
+      <div
+        style={{ height: "max-content" }}
+        className="container overflow-auto "
+      >
         <Reveal keyframes={Name} delay={300}>
           <div className="circle  group hover:shadow-[0_0px_40px] hover:shadow-rose-500">
             <div className="group-hover:hidden">Devolopment </div>

@@ -7,7 +7,8 @@ const Me = () => {
   return (
     <div
       style={{
-        height: "151.01dvh",
+        height: "max-content",
+        maxWidth: "max-content",
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",

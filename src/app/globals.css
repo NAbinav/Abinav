@@ -16,12 +16,12 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  height: max-content;
 }
 
 body {
   background-color: var(--bg-color);
   margin: 0%;
-  overflow: visible;
   padding: 0%;
   display: flex;
   align-items: center;
@@ -131,7 +131,7 @@ p {
 }
 
 #show-menu {
-  z-index: 100;
+  z-index: 1;
   display: block;
 }
 
@@ -231,7 +231,7 @@ ul {
 }
 
 .navbar {
-  display: none;
+  display: flex;
   position: fixed;
   bottom: 0px;
   left: 0;
@@ -271,6 +271,12 @@ ul {
 
 
 }
+.introres{
+  display: none;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
 
 @keyframes blink {
   0% {
@@ -308,7 +314,13 @@ li {
   height: max-content;
 }
 
-@media screen and (min-width: 800px) {
+@media  (min-width: 600px) {
+  .navbar{
+    display: none;
+  }
+  .introres{
+    display: block;
+  }
   li::after {
     display: block;
     content: "";
@@ -319,6 +331,7 @@ li {
     background-color: white;
     top: -10px;
   }
+
 
   li::before {
     display: block;
@@ -360,7 +373,8 @@ li {
   }
 }
 
-@media  (max-width: 500px) {
+@media  (max-width: 600px) {
+  
   #menu {
     display: none;
   }
@@ -368,11 +382,9 @@ li {
   .card {
     display: none;
   }
-
-  .navbar {
-    display: flex;
-
-
+  .circle{
+    height: 200px;
+    width: 200px;
   }
 }
 .det{
@@ -396,4 +408,8 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#skills{
+  max-height: max-content;
+  height: max-content;
 }
