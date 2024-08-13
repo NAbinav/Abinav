@@ -55,7 +55,7 @@ const Page = () => {
       </div>
       <div
         style={{
-          height: "100dvh",
+          height: "max-content",
           width: "100%",
           justifyContent: "center",
           alignContent: "center",
