@@ -314,7 +314,7 @@ li {
   height: max-content;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 640px) {
   .navbar{
     display: none;
   }
@@ -373,7 +373,7 @@ li {
   }
 }
 
-@media  (max-width: 767px) {
+@media  (max-width: 640px) {
   
   #menu {
     display: none;
