@@ -27,8 +27,7 @@ const Page = () => {
         alignItems: "center",
       }}
     >
-      <meta name="viewport" content="width=device-width, user-scalable=no" />
-
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div
         style={{
           width: "100%",
