@@ -64,12 +64,7 @@ const Home = () => {
         <div className="flex flex-col gap-12 det">
           <p id="details" className="typed" ref={el}></p>
           <Reveal keyframes={others}>
-            <a
-              id="link"
-              href="/Abinav N Resume.pdf.pdf"
-              className="-translate-x-10"
-              download
-            >
+            <a id="link" href="/Abinav N Resume.pdf.pdf" className="" download>
               <button id="but">Download CV</button>
             </a>
           </Reveal>
