@@ -56,7 +56,7 @@ const Home = () => {
     <>
       <div className="h-screen flex flex-col">
         <div className="">
-          <p id="name" className="translate-x-6">
+          <p id="name" className="">
             <span id="a">A</span>binav <br />
             Nagarajan
           </p>
