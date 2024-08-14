@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 import { Reveal } from "react-awesome-reveal";
 import { keyframes } from "@emotion/react";
-const Circle = ({ list}) => {
-    const Name= keyframes`
+const Circle = ({ list }) => {
+  const Name = keyframes`
     to {
       opacity: 1;
       transform: translate(0, 0);
@@ -17,7 +17,9 @@ const Circle = ({ list}) => {
   return (
     <div className="circle-container">
       {list.map((circle, index) => (
-        <Reveal  key={index} keyframes={keyframes`
+        <Reveal
+          key={index}
+          keyframes={keyframes`
             to {
               opacity: 1;
               transform: translate(0, 0);
@@ -25,15 +27,23 @@ const Circle = ({ list}) => {
           
             from {
               opacity: 0;
-              transform:rotate(${(360 / list.length) * (list.length-index)}deg);
+              transform:rotate(${
+                (360 / list.length) * (list.length - index)
+              }deg);
               rotate(-${(360 / list.length) * index}deg)
               
             }
-          `} delay={index*100}>
+          `}
+          delay={index * 150}
+        >
           <div
             className="ncircle"
             style={{
-              transform: `rotate(${(360 / list.length) * index}deg) translate(100px) rotate(-${(360 / list.length) * index}deg)`,
+              transform: `rotate(${
+                (360 / list.length) * index
+              }deg) translate(100px) rotate(-${
+                (360 / list.length) * index
+              }deg)`,
             }}
           >
             {circle}

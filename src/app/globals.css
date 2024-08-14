@@ -387,8 +387,8 @@ li {
     display: none;
   }
   .circle{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
   }
 }
 .det{
@@ -400,6 +400,7 @@ li {
   height: 175x;
   margin: 50px auto;
   display: flex;
+  transform: translate(-25%,-9dvw);
   justify-content: center;
   align-items: center;
 }

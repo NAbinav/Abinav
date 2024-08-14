@@ -28,17 +28,21 @@ const Page = () => {
       }}
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <div id="home" className=" introres">
+      <div id="" className=" introres">
         <Intro />
       </div>
-
-      <Home />
-
-      <Me />
-
-      <Skills />
-
-      <Project />
+      <div id="home">
+        <Home />
+      </div>
+      <div id="about">
+        <Me />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div>
+        <Project />
+      </div>
     </section>
   );
 };
