@@ -142,7 +142,7 @@ const Skills = () => {
         className="container overflow-auto "
       >
         <Reveal keyframes={Name} delay={300}>
-          <div className="circle  group hover:shadow-[0_0px_40px] hover:shadow-rose-500">
+          <div className="p-10 m-10 circle  group hover:shadow-[0_0px_40px] hover:shadow-rose-500">
             <div className="group-hover:hidden">Devolopment </div>
             <div className="hidden group-hover:block -translate-x-10 -translate-y-9">
               <Circle list={list1} />
@@ -150,7 +150,7 @@ const Skills = () => {
           </div>
         </Reveal>
         <Reveal keyframes={Name} delay={250}>
-          <div className="circle group hover:shadow-[0_0px_40px] hover:shadow-emerald-600 ">
+          <div className="circle p-10 m-10 group hover:shadow-[0_0px_40px] hover:shadow-emerald-600 ">
             <div className="group-hover:hidden">Programming Languages </div>
             <div className="hidden group-hover:block -translate-x-10 -translate-y-9">
               <Circle list={list2} />
@@ -158,7 +158,7 @@ const Skills = () => {
           </div>
         </Reveal>
         <Reveal keyframes={Name} delay={300}>
-          <div className="circle group hover:shadow-[0_0px_40px] hover:shadow-sky-600">
+          <div className="circle group p-10 m-10 hover:shadow-[0_0px_40px] hover:shadow-sky-600">
             <div className="group-hover:hidden">Database </div>
             <div className="hidden group-hover:block -translate-x-10 -translate-y-9">
               <Circle list={list3} />
@@ -166,7 +166,7 @@ const Skills = () => {
           </div>
         </Reveal>
         <Reveal keyframes={Name}>
-          <div className="circle group hover:shadow-[0_0px_40px] hover:shadow-fuchsia-600">
+          <div className="circle group p-10 m-10 hover:shadow-[0_0px_40px] hover:shadow-fuchsia-600">
             <div className="group-hover:hidden">Designing </div>
           </div>
         </Reveal>

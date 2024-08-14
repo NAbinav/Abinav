@@ -53,17 +53,8 @@ const Home = () => {
     };
   }, []);
   return (
-    <main
-      className="ov "
-      style={{
-        height: "100dvh",
-        width: "100dvw",
-        justifyContent: "center",
-        alignContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <div style={{ height: "", display: "flex" }} className=" flex flex-col">
+    <main className="ov ">
+      <div className="h-screen flex flex-col">
         <div className="">
           <p id="name">
             <span id="a">A</span>binav <br />

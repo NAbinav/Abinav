@@ -7,13 +7,7 @@ const Me = () => {
   return (
     <div
       style={{
-        height: "max-content",
-        maxWidth: "max-content",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignContent: "center",
-        alignItems: "center",
+        height: "150dvh",
       }}
       className=""
     >
@@ -21,7 +15,7 @@ const Me = () => {
         ABOUT ME
       </h1>
       <Reveal keyframes={others}>
-        <p id="hey-guys" className="">
+        <p id="hey-guys" className="center align-middle">
           Hey guys, My name is <span className="font-bold">Abinav N</span> and I
           am a Second-year{" "}
           <span className="font-bold">Electronics and Computer Science</span>{" "}
@@ -30,11 +24,8 @@ const Me = () => {
           innovations.
         </p>
       </Reveal>
-      <div className="education">
-        <ul
-          className="m-10 p-10"
-          style={{ display: "flex", flexDirection: "column" }}
-        >
+      <div className="education flex align-middle self-center ">
+        <ul className="flex flex-col self-center items-center justify-around">
           <Reveal keyframes={others}>
             <li>
               <div className="secondary box ">
