@@ -53,7 +53,16 @@ const Home = () => {
     };
   }, []);
   return (
-    <main className="ov ">
+    <main
+      className="ov "
+      style={{
+        height: "100dvh",
+        width: "100dvw",
+        justifyContent: "center",
+        alignContent: "center",
+        alignItems: "center",
+      }}
+    >
       <div style={{ height: "", display: "flex" }} className=" flex flex-col">
         <div className="">
           <p id="name">

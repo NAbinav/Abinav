@@ -28,67 +28,17 @@ const Page = () => {
       }}
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <div
-        style={{
-          height: "100dvh",
-          width: "100%",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-        id="home"
-        className=" introres"
-      >
+      <div id="home" className=" introres">
         <Intro />
       </div>
-      <div
-        style={{
-          height: "100dvh",
-          width: "100%",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-        id="home"
-      >
-        <Home />
-      </div>
-      <div
-        style={{
-          height: "max-content",
-          width: "100%",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-        id="about"
-      >
-        <Me />
-      </div>
-      <div
-        style={{
-          height: "max-content",
-          width: "100%",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-        id="skills"
-      >
-        <Skills />
-      </div>
-      <div
-        style={{
-          height: "100dvh",
-          width: "100%",
-          justifyContent: "center",
-          alignContent: "center",
-          alignItems: "center",
-        }}
-        id="about"
-      >
-        <Project />
-      </div>
+
+      <Home />
+
+      <Me />
+
+      <Skills />
+
+      <Project />
     </section>
   );
 };
