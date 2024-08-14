@@ -54,7 +54,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className="h-screen flex flex-col">
+      <div className="h-screen flex flex-col px-10">
         <div className="">
           <p id="name" className="">
             <span id="a">A</span>binav <br />
