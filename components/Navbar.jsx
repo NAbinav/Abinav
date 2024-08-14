@@ -16,7 +16,7 @@ const Navbar = () => {
   const [home, sethome] = useState(false);
   return (
     <>
-      <div className="navbar block sm:hidden">
+      <div className="navbar fixed block sm:hidden">
         <a href="#home">
           <span className="flex flex-col items-center justify-center">
             <FontAwesomeIcon icon={faHouse} size="xs" />
