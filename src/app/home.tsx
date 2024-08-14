@@ -53,10 +53,10 @@ const Home = () => {
     };
   }, []);
   return (
-    <main className="ov ">
+    <>
       <div className="h-screen flex flex-col">
         <div className="">
-          <p id="name">
+          <p id="name" className="translate-x-6">
             <span id="a">A</span>binav <br />
             Nagarajan
           </p>
@@ -75,7 +75,7 @@ const Home = () => {
           </Reveal>
         </div>
       </div>
-    </main>
+    </>
   );
 };
 
