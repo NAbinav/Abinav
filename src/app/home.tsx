@@ -54,7 +54,7 @@ const Home = () => {
   }, []);
   return (
     <>
-      <div className=" flex flex-col px-10">
+      <div className="h-screen flex flex-col px-10">
         <div className="">
           <p id="name" className="">
             <span id="a">A</span>binav <br />
@@ -64,7 +64,12 @@ const Home = () => {
         <div className="flex flex-col gap-12 det">
           <p id="details" className="typed" ref={el}></p>
           <Reveal keyframes={others}>
-            <a id="link" href="/Abinav N Resume.pdf.pdf" className="" download>
+            <a
+              id="link"
+              href="/Abinav N Resume.pdf.pdf"
+              className="px-10"
+              download
+            >
               <button id="but">Download CV</button>
             </a>
           </Reveal>
