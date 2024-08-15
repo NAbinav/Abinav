@@ -41,13 +41,14 @@ function Intro() {
   return (
     <main
       style={{
-        height: "100dvh",
+        minHeight: "100dvh",
+        maxHeight: "max-content",
         display: "flex",
         justifyContent: "center",
         alignContent: "center",
         alignItems: "center",
       }}
-      className=" firstpage"
+      className="firstpage"
     >
       <div
         id="cards"

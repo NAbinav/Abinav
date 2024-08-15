@@ -15,7 +15,7 @@ const Circle = ({ list }) => {
     }
   `;
   return (
-    <div className="circle-container">
+    <div className="circle-container flex align-top justify-center">
       {list.map((circle, index) => (
         <Reveal
           key={index}

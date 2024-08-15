@@ -33,6 +33,7 @@ body {
   height: 150dvh;
 }
 
+
 .card {
   background-color: rgba(255, 255, 255, 0.02);
   height: 230px;
@@ -40,7 +41,6 @@ body {
   border-radius: 10px;
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
   border: 2px solid rgba(255, 255, 255, 0.2);
   position: relative;
@@ -69,9 +69,8 @@ body {
 #cards {
   display: flex;
   flex-wrap: wrap;
-  max-width: 50%;
+  max-width: 640px; /* 2 cards x 300px width + gap */
   cursor: pointer;
-  width: calc(100%-20px);
   gap: 20px;
   justify-content: center;
 }
@@ -257,6 +256,7 @@ ul {
   border-radius: 50%;
   justify-content: center;
   align-content: center;
+  align-self: center;
   text-align: center;
   cursor: pointer;
   box-shadow: 0px 0px 40px rgba(255,255,255,0.3);
@@ -317,6 +317,12 @@ li {
   width: 100%;
   height: max-content;
 }
+.circle-container {
+  position: relative;
+  margin: 50px auto;
+  display: flex;
+  position: relative;
+}
 
 @media only screen and (min-width: 640px) {
 
@@ -376,6 +382,13 @@ li {
     clear: left;
     transform: translateX(75%);
   }
+  .circle-container{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    align-self: center;
+  }
 }
 
 @media  (max-width: 640px) {
@@ -390,19 +403,10 @@ li {
   .circle{
     height: 250px;
     width: 250px;
-  
   }
 }
 .det{
   transform: translateY(65%);
-}
-.circle-container {
-  position: relative;
-  margin: 50px auto;
-  display: flex;
-  transform: translate(-3dvw,-3dvw);
-  justify-content: center;
-  align-items: center;
 }
 
 .ncircle {
