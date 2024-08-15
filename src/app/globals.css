@@ -29,7 +29,10 @@ body {
   overflow-x: auto;
 
 }
-#home,#about{
+#home{
+  height: 100dvh;
+}
+#about{
   height: 150dvh;
 }
 
@@ -280,6 +283,7 @@ ul {
   height: 100dvh;
   justify-content: center;
   align-items: center;
+  scroll-snap-align: center;
 }
 
 @keyframes blink {
@@ -421,4 +425,13 @@ li {
 #skills{
   max-height: max-content;
   height: max-content;
+}
+#page{
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  
+  white-space: nowrap;
+}
+#home,#about,#skills{
+  scroll-snap-align: center;
 }

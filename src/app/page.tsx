@@ -23,6 +23,7 @@ const Page = () => {
         height: "100dvh",
         width: "100%",
       }}
+      id="page"
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <div id="" className=" introres">

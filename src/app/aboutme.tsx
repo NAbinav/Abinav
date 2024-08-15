@@ -15,7 +15,7 @@ const Me = () => {
         ABOUT ME
       </h1>
       <Reveal keyframes={others}>
-        <p id="hey-guys" className="center align-middle">
+        <p id="hey-guys" className="center align-middle p-10">
           Hey guys, My name is <span className="font-bold">Abinav N</span> and I
           am a Second-year{" "}
           <span className="font-bold">Electronics and Computer Science</span>{" "}
@@ -24,7 +24,7 @@ const Me = () => {
           innovations.
         </p>
       </Reveal>
-      <div className="education flex align-middle self-center ">
+      <div className="education flex align-middle self-center p-10">
         <ul className="flex flex-col self-center items-center justify-around">
           <Reveal keyframes={others}>
             <li>
