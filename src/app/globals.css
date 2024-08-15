@@ -29,8 +29,7 @@ body {
   overflow-x: auto;
 
 }
-
-#about{
+#home,#about{
   height: 150dvh;
 }
 
