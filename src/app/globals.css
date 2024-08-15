@@ -426,12 +426,3 @@ li {
   max-height: max-content;
   height: max-content;
 }
-#page{
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
-  
-  white-space: nowrap;
-}
-#home,#about,#skills{
-  scroll-snap-align: center;
-}
