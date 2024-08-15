@@ -7,7 +7,7 @@ const Me = () => {
   return (
     <div
       style={{
-        height: "150dvh",
+        height: "max-content",
       }}
       className=""
     >
