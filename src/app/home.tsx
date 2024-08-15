@@ -56,7 +56,7 @@ const Home = () => {
     <>
       <div className="h-screen flex flex-col px-10">
         <div className="">
-          <p id="name" className="">
+          <p id="name" className="px-10">
             <span id="a">A</span>binav <br />
             Nagarajan
           </p>
