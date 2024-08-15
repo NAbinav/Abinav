@@ -15,7 +15,7 @@ const Page = () => {
       }}
     >
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <div id="" className=" introres">
+      <div id="" className=" h-screen introres">
         <Intro />
       </div>
       <div id="home">
