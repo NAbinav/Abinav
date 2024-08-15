@@ -283,7 +283,6 @@ ul {
   height: 100dvh;
   justify-content: center;
   align-items: center;
-  scroll-snap-align: center;
 }
 
 @keyframes blink {
